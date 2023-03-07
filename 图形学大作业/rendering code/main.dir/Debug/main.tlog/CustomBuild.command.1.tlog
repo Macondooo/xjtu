@@ -1,0 +1,10 @@
+^D:\ACADEMIC\2022-2023 SEMESTER\GRAPHING\TASK1\CODE\CMAKELISTS.TXT
+setlocal
+D:\Python38\python38\Lib\site-packages\cmake\data\bin\cmake.exe "-SD:/academic/2022-2023 semester/graphing/task1/code" "-BD:/academic/2022-2023 semester/graphing/task1/code" --check-stamp-file "D:/academic/2022-2023 semester/graphing/task1/code/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

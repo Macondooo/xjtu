@@ -1,0 +1,123 @@
+$date
+	Wed Jan 25 13:51:57 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ns
+$end
+$scope module RAM_tb $end
+$var wire 32 ! R_data [31:0] $end
+$var parameter 32 " clk_period $end
+$var reg 32 # Addr [31:0] $end
+$var reg 1 $ MemRd $end
+$var reg 1 % MemWr $end
+$var reg 32 & W_data [31:0] $end
+$var integer 32 ' i [31:0] $end
+$scope module ram $end
+$var wire 32 ( Addr [31:0] $end
+$var wire 1 $ MemRd $end
+$var wire 1 % MemWr $end
+$var wire 32 ) W_data [31:0] $end
+$var wire 32 * R_data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 "
+$end
+#0
+$dumpvars
+bz *
+b10001110100000 )
+b0 (
+bx '
+b10001110100000 &
+0%
+0$
+b0 #
+bz !
+$end
+#5
+1%
+#7
+b10001110100001 &
+b10001110100001 )
+#10
+0%
+b1 #
+b1 (
+#14
+b10001110100010 &
+b10001110100010 )
+#15
+1%
+#20
+0%
+b10 #
+b10 (
+#21
+b10001110100011 &
+b10001110100011 )
+#25
+1%
+#28
+b10001110100100 &
+b10001110100100 )
+#30
+b11 #
+b11 (
+#35
+b10001110100101 &
+b10001110100101 )
+#42
+b10001110100110 &
+b10001110100110 )
+#49
+b10001110100111 &
+b10001110100111 )
+#56
+b10001110101000 &
+b10001110101000 )
+#63
+b10001110101001 &
+b10001110101001 )
+#70
+b100 '
+b10001110101010 &
+b10001110101010 )
+#100
+b0 #
+b0 (
+#105
+b10001110100000 !
+b10001110100000 *
+1$
+#110
+bz !
+bz *
+0$
+b1 #
+b1 (
+#115
+b10001110100010 !
+b10001110100010 *
+1$
+#120
+bz !
+bz *
+0$
+b10 #
+b10 (
+#125
+b10001110100011 !
+b10001110100011 *
+1$
+#130
+bx !
+bx *
+b11 #
+b11 (
+#6130

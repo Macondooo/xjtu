@@ -1,0 +1,11 @@
+#
+.txt
+main:
+	addiu $t0,$0,1
+	addiu $t1,$0,3
+	addiu $t3,$0,4
+	add $t2,$t0,$t1
+	beq $t2,$t3,next
+	sub $t0,$t1,$t0
+next:	
+	sub $t0,$t0,$t1

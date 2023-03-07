@@ -1,0 +1,3 @@
+D:/academic/2022-2023 semester/graphing/task1/code/CMakeFiles/main.dir
+D:/academic/2022-2023 semester/graphing/task1/code/CMakeFiles/ALL_BUILD.dir
+D:/academic/2022-2023 semester/graphing/task1/code/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,34 @@
+$date
+	Wed Jan 25 12:54:33 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ns
+$end
+$scope module ROM_tb $end
+$var wire 32 ! Addr [31:0] $end
+$var wire 32 " R_data [31:0] $end
+$scope module rom $end
+$var wire 32 # Addr [31:0] $end
+$var wire 32 $ R_data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#10
+b10001110000000001000010000 "
+b10001110000000001000010000 $
+b1 !
+b1 #
+#6000
