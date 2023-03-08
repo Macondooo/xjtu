@@ -4,7 +4,7 @@
 ## 项目内容速览
 请戳`./Showcase.pptx`
 
-为项目验收时，作者所在小组所用的的展示PPT
+为项目验收时，作者所在小组的展示PPT
 
 ## 代码速览
 代码目录结构如下所示：
@@ -16,9 +16,10 @@ Project 2_ Masked-Unmasked Face R:
 │  ├─dataset_nomask
 │  ├─dataset_nomasked_eyes
 │  ├─eigeneyes
-│  │  ├─post
-│  │  └─theme
-│  │      └─simple
-│  └─_widget
+│  │  ├─
+│  │  └─
+│  │      └─
+////////////to do/////////////////
+│  └─
 ├─MaskedUnmaskedFaceRecognition //项目指导文档
 ```
