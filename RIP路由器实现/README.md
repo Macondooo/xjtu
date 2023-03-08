@@ -6,6 +6,8 @@
 
 编写代码文件：`./cs168_proj_routing_student-master/simulator/dv_router.py`
 
+实验手册详见`./cs168_proj_routing_student-master/project1_writeup`
+
 主要完成的内容如下：
 - state1：为每个直接连接路由器的host建立一条静态路由，expiry_time = FOREVER
 - state2：为每个路由器实现在接到数据包的时候，将数据包转发到其需要的端口。如果要去的目的地不存在，路由器会简单丢弃数据包；如果到目的地的延迟等于INFINITY，同样也丢弃数据包

@@ -7,8 +7,11 @@
 - 物理模拟
 - 曲面简化
 其中，渲染管线为单独的代码文件，位于rendering code中；其余三部分都在Scotty3D中实现
+
 > 本实验主要是在CMU的Scotty3D环境中实现的，Scotty3D项目地址移步https://github.com/CMU-Graphics/Scotty3D
 > 本课程中实现的代码请在本仓库的Scotty3D环境中运行（课程上做了一定修改）
+
+==实现手册位于.`/ref`😘==
 
 ## 渲染管线
 
@@ -25,9 +28,9 @@
 
 ## 物理模拟
 
-该部分实验编写的代码位于`./Scotty3D/src/student/meshedit.cpp`，主要完成了以下部分：
+该部分实验编写的代码位于`./Scotty3D/src/student/meshedit.cpp`
 
-
+主要完成了模拟小球和隔板的完全弹性碰撞
 
 ## 曲面简化
 
