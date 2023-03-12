@@ -1,6 +1,7 @@
 # NUS summer workshop
 
 欢迎来到该目录😊，本目录记录了2022年夏作者在新加坡国立大学所完成的项目`Masked-Unmasked Face Recognition`
+
 ## 项目内容速览
 速览请戳`./Showcase.pptx`
 为项目验收时，作者所在小组的展示PPT
@@ -9,7 +10,7 @@
 
 1. 依据戴口罩的数据集，创造一个戴口罩的数据集  
   代码详见`stater.py`  
-  主要实现步骤为：  
+  主要实现步骤为：
     * 从原始数据中读取图片
     * 使用人脸特征点标记模型`shape_predictor_68_face_landmarks.dat`,在图片上标记出人脸的68特征点；依据已标记的特征点求出最小的外接矩形；并重新设定图片的大小，裁剪掉多余的区域
     * 同样利用人脸特征点标记模型`shape_predictor_68_face_landmarks.dat`，连接下颚线，鼻子等特征点，建立一个伪戴口罩的人脸图片。
