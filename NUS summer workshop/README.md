@@ -2,7 +2,7 @@
 
 欢迎来到该目录😊，本目录记录了2022年夏作者在新加坡国立大学所完成的项目`Masked-Unmasked Face Recognition`
 ## 项目内容速览
-速联请戳`./Showcase.pptx`
+速览请戳`./Showcase.pptx`
 为项目验收时，作者所在小组的展示PPT
 
 该项目主要分为一下四部分内容：
