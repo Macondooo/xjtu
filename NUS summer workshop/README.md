@@ -1,6 +1,6 @@
 # NUS summer workshop
 
-欢迎来到该目录😊🎉，本目录记录了2022年夏作者在新加坡国立大学所完成的项目`Masked-Unmasked Face Recognition`
+欢迎来到该目录😊🎉，本目录记录了2022年夏作者和三名队友在新加坡国立大学所完成的项目`Masked-Unmasked Face Recognition`
 
 ## 项目内容速览
 速览请戳`./Showcase.pptx`
