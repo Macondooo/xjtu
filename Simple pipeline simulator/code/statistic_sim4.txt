@@ -1,0 +1,4 @@
+8 Cycle(s) executed
+0 stalls, (0 % of all Cycle(s))
+1 conditional branchs, (25 % of all Instruction(s))
+  1 taken, (100 % of all cond.Branches)

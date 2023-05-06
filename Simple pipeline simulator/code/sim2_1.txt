@@ -1,0 +1,9 @@
+add.IF    
+add.ID    add.IF    
+add.EX    add.ID    load.IF   
+add.MEM   INSTALL   INSTALL   
+add.WB    INSTALL   INSTALL   
+          add.EX    load.ID   
+          add.MEM   load.EX   
+          add.WB    load.MEM  
+                    load.WB   

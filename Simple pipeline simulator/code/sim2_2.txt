@@ -1,0 +1,7 @@
+add.IF    
+add.ID    add.IF    
+add.EX    add.ID    load.IF   
+add.MEM   add.EX*   load.ID   
+add.WB    add.MEM   load.EX   
+          add.WB    load.MEM  
+                    load.WB   

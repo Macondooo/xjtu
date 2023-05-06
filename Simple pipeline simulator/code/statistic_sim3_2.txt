@@ -1,0 +1,3 @@
+9 Cycle(s) executed
+1 stalls, (11.1111 % of all Cycle(s))
+0 conditional branchs, (0 % of all Instruction(s))

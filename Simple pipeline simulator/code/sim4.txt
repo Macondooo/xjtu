@@ -1,0 +1,8 @@
+add.IF    
+add.ID    beqz.IF   
+add.EX    beqz.ID   load.IF   
+add.MEM   beqz.EX   ABORTED   add.IF    
+add.WB    beqz.MEM            add.ID    
+          beqz.WB             add.EX    
+                              add.MEM   
+                              add.WB    
